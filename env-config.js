@@ -27,7 +27,6 @@ function checkUrl() {
 
 function removeTrailingSlashFromUrl(url) {
   if (!url || !url.endsWith("/")) return url;
-
   return url.substring(0, url.length - 1);
 }
 
